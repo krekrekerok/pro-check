@@ -1,0 +1,14 @@
+.country-flags {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.country-flags span {
+    font-size: 78px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: .2s all;
+    &:hover{
+        scale: 1.3;
+    }
+}

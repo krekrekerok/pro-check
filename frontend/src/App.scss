@@ -1,0 +1,99 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+/*  css variables */
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --text-color: #737373;
+  --small-text-color: #999;
+  --heading-text-color: #252B42;
+  --button-main-color: #23A6F0;
+  --card-pink: #ffe9eb;
+}
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,p{
+  padding: 0;
+  margin: 0;
+  color: var(--heading-text-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  transition: 0.3s all;
+}
+
+img{
+  width: 100%;
+}
+
+
+.layout_setup-p {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+button {
+  background-color: var(--button-main-color);
+  border-color: var(--button-main-color);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s all;
+  &:hover{
+    background-color: white;
+    color: var(--button-main-color);
+    border: 2px solid var(--button-main-color);
+    scale: 0.95;
+  }
+}
+
+section{
+  padding: 60px 0;
+}
+
+.section__title{
+  color: var(--heading-text-color);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.section__intro{
+  margin: 1rem 0;
+  font-size: 0.9rem;;
+}
+
+.logo img{
+  cursor: pointer;
+}

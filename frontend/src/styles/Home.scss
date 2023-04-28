@@ -1,0 +1,28 @@
+.hero_section {
+    padding: 0;
+    .row{
+        align-items: center;
+        .hero__content{
+            display: flex;
+            flex-direction: column;
+            row-gap: 3rem;
+                .hero__title{
+                    color: var(--heading-text-color);
+                    .hero__title-2 {
+                        text-align: center;
+                    }
+                    h2{
+                        font-size: 3rem;
+                        font-weight: 900;
+                    }
+                }
+                p{
+                    color: var(--text-color);
+                }
+                .more__btn {
+                    width: 35%;
+                    height: 50px;
+                }
+        }
+    }
+}

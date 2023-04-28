@@ -1,0 +1,55 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 40px 0;
+    gap: 1rem;
+  }
+  .program-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    width: 24%;
+    height: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  
+    .program-image {
+        width: 60%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: 0 auto 10px;
+    }
+  
+    .program-info {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+        justify-content: space-between;
+      p{
+        font-size: 14px;
+      }
+
+      .program-name{
+        font-size: 18px;
+      }
+  
+      .program-description {
+        margin-bottom: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 5.2em;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  
+    .learn-more-btn {
+        padding: 0.4rem 1rem;
+        width: 100%;
+    }
+  }
+  

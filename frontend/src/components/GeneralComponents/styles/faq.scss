@@ -1,0 +1,36 @@
+.section__qa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .accordion{
+        width: 45%;
+        .accordion-item{
+            border: none;
+        }
+        .accordion-button:not(.collapsed){
+            color: unset; 
+            background-color: unset;
+            box-shadow: unset
+        }
+
+        .accordion-button:hover{
+            color: #86b7fe;
+
+        }
+    }
+}
+
+button {
+    background-color: var(--button-main-color);
+    border-color: var(--button-main-color);
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.2s all;
+    &:hover{
+      border: none !important;
+      scale: 1 !important
+    }
+
+}

@@ -1,0 +1,12 @@
+.programs__list{
+    column-gap: 2rem;
+    .more__btn {
+        background: unset;
+        color: var(--text-color);
+        border: none;
+        text-decoration: underline;
+    }
+    a{
+        cursor: unset;
+    }
+}
